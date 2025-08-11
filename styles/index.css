@@ -3,7 +3,7 @@ body {
   max-width: 900px;
   margin: auto;
   padding: 20px;
-  background: #f9f9f9;
+  background: #E0E0E0;
   color: #333;
   user-select: none;
 }
@@ -13,13 +13,22 @@ header {
 
 }
 
-h1, h2, h3 {
+h1, h2, h3, p {
+  text-align: center;
   color: #2c3e50;
 }
 
 a {
   color: #2980b9;
   text-decoration: none;
+}
+
+.myself {
+  display: block;
+  margin: 20px auto;
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 300px;
 }
 
 a:hover {
@@ -29,6 +38,12 @@ a:hover {
   margin-bottom: 20px;
 }
 /* Carousel container */
+.carousel-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .carousel-container {
   position: relative;
   width: 100%;
@@ -36,7 +51,7 @@ a:hover {
   height: 150px;
   margin-bottom: 40px;
   overflow: hidden;
-  background: white;
+  background: #a1dbc6;
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   display: flex;
@@ -143,7 +158,7 @@ a:hover {
 /* Content sections */
 section.content-section {
   display: none;
-  background: white;
+  background: #a1dbc6;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
