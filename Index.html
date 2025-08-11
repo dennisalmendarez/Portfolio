@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dennis Almendarez - Center Focused Carousel</title>
+  <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+
+<header>
+  <h1>Dennis Almendarez</h1>
+  <p>Web and Computer Programming Student | Full-Stack Developer</p>
+  <div class="contact-info">
+    <p>📞 +1 (407) 781-7610 | 📧 <a href="mailto:dennisyassid212@hotmail.com">dennisyassid212@hotmail.com</a></p>
+    <p>🔗 
+      <a href="https://www.linkedin.com/in/dennis-almendarez-3a2079268" target="_blank" rel="noopener">LinkedIn</a> | 
+      <a href="https://github.com/dennisalmendarez" target="_blank" rel="noopener">GitHub</a>
+    </p>
+  </div>
+</header>
+
+<div class="carousel-container" aria-label="Main sections carousel">
+  <button class="arrow left" aria-label="Scroll left">&#8592;</button>
+  <div class="cards" role="list" aria-live="polite" aria-atomic="true">
+    <div class="card" role="listitem" tabindex="0" data-index="0">About Me</div>
+    <div class="card" role="listitem" tabindex="-1" data-index="1">Education</div>
+    <div class="card" role="listitem" tabindex="-1" data-index="2">Skills</div>
+    <div class="card" role="listitem" tabindex="-1" data-index="3">Projects</div>
+  </div>
+  <button class="arrow right" aria-label="Scroll right">&#8594;</button>
+</div>
+
+<!-- Content sections -->
+<section class="content-section active" id="about" tabindex="0">
+  <h2>About Me</h2>
+  <p>Web and Computer Programming student skilled in full-stack development (Node.js, MongoDB, OAuth) and frontend automation using Python, Selenium, and Docker. Passionate about creating clean, functional code and delivering real-world solutions.</p>
+</section>
+
+<section class="content-section" id="education" tabindex="0">
+  <h2>Education</h2>
+  <p><strong>Brigham Young University - Idaho</strong><br />
+    Bachelor of Software Development (Expected 2026)<br />
+    Certificate in Web and Computer Programming (Awarded Sept 2024)
+  </p>
+  <p><strong>Maynard Evans High School — Orlando, FL</strong><br />
+    High School Diploma (May 2016)
+  </p>
+</section>
+
+<section class="content-section" id="skills" tabindex="0">
+  <h2>Technical Skills</h2>
+  <ul>
+    <li><strong>Languages:</strong> Python, HTML, CSS, JavaScript, MySQL, C#</li>
+    <li><strong>Frameworks/Tools:</strong> Node.js, Express, MongoDB, OAuth, Git, Render, Docker</li>
+    <li><strong>Testing:</strong> Pytest, Selenium, Postman, coverage.py, Squash TM, Chrome DevTools</li>
+    <li><strong>Testing Techniques:</strong> Regression, Integration, Unit, Black/White Box, Load, Stress, Boundary Value, Fault Injection</li>
+    <li><strong>Other:</strong> Bilingual (English & Spanish), Project Documentation, Microsoft Office Suite</li>
+  </ul>
+</section>
+
+<section class="content-section" id="projects" tabindex="0">
+  <h2>Project Experience</h2>
+  <p><strong>Independent Developer — Winter Garden, FL</strong><br />
+    Software & Web Projects | Dec 2022 - Present
+  </p>
+  <ul>
+    <li>
+      Developed and deployed a clean CSS-based website for a fictional rafting company booking system.  
+      <a href="https://dennisalmendarez.github.io/wdd130-wdd130/wwr/index.html" target="_blank" rel="noopener">View Site</a>
+    </li>
+    <li>
+      Built a promotional website to boost church group participation.  
+      <a href="https://dennisalmendarez.github.io/wdd130-wdd130/ysaward/index.html" target="_blank" rel="noopener">View Site</a>
+    </li>
+    <li>
+      Programmed a branching narrative text-based game using Python where players make choices leading to three different endings.
+    </li>
+    <li>
+      Created a simple, calculator-based tool for a carpentry business to manage employee pay based on square feet, and to saves dates and lot numbers for easy access.
+    </li>
+    <li>
+      Designed a web app using an API to provide weekly anime recommendations in a clean interface.  
+      <a href="https://dennisalmendarez.github.io/cse121b/w02-task/project.html" target="_blank" rel="noopener">View App</a>
+    </li>
+    <li>Used Docker to containerize testing environments for HTML/CSS/JS projects.</li>
+    <li>Automated form and UI testing using Selenium; validated behavior with pytest.</li>
+    <li>Implemented OAuth authentication in web applications to enhance security testing with API-DOCS.</li>
+    <li>
+      Created a chamber of commerce website for testing purposes, implementing lazy loading, forms, and more.  
+      <a href="https://dennisalmendarez.github.io/wdd230/chamber/index.html" target="_blank" rel="noopener">View Site</a>
+    </li>
+    <li>
+      Worked on a personal project, "Clipper," currently in testing phase.  
+      <a href="https://github.com/dennisalmendarez/CPP-Programs/tree/main/clipper_uploader" target="_blank" rel="noopener">View Repo</a>
+    </li>
+  </ul>
+</section>
+
+<script src="script/index.js"></script>
+
+</body>
+</html>
